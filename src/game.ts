@@ -1,6 +1,5 @@
 import { signedFetch } from "@decentraland/SignedFetch";
-
-const { QuestsClient } = DCLQuests;
+import { QuestsClient } from "dcl-quests-client/quests-client-amd";
 
 const cube = new Entity();
 

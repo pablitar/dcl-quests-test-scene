@@ -14,6 +14,6 @@
     "decentraland-ecs": "^6.6.4-20210122195330.commit-b85b51a"
   },
   "dependencies": {
-    "dcl-quests-client": "^1.2.1"
+    "dcl-quests-client": "^1.3.0"
   }
 }

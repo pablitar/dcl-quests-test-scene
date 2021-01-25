@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
     "outFile": "./bin/game.js",
-    "allowJs": true
+    "allowJs": true,
+    "paths": {
+      "*": ["./node_modules/dcl-quests-client/quests-client-amd.d.ts"]
+    }
   },
   "include": ["src/**/*.ts"],
-  "files": ["./node_modules/dcl-quests-client/quests-client-global.js"],
-  "extends": "./node_modules/decentraland-ecs/types/tsconfig.json"
+  "extends": "./node_modules/decentraland-ecs/types/tsconfig.json",
+  "files": ["./node_modules/dcl-quests-client/quests-client-amd.js"]
 }
